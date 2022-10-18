@@ -26,20 +26,44 @@
     background-image: url("../img/tileset/png/Objects/Tree.png");
     position: absolute;
     background-size: contain;
+    background-repeat: no-repeat;
+    z-index: 100;
+    width: 40vw;
+    height: 40vh;
+    bottom: 150px;
+    left:1100px ;
 }
 #deadbush{
     background-image: url("../img/tileset/png/Objects/DeadBush.png");
     position: absolute;
+    background-size: contain;
+    background-repeat: no-repeat;
+    bottom: 150px;
+    width: 20vw;
+    height: 15vh;
+    left:1050px ;
 }
 #bush{
     background-image: url("../img/tileset/png/Objects/Bush\ \(1\).png");
     position: absolute;
+    background-size: contain;
+    background-repeat: no-repeat;
+    bottom: 150px;
+    width: 20vw;
+    height: 15vh;
+    left:-10px ;
 }
 #tombstone{
     background-image: url("../img/tileset/png/Objects/TombStone\ \(2\).png");
     position: absolute;
+    background-size: contain;
+    background-repeat: no-repeat;
+    bottom: 150px;
+    width: 20vw;
+    height: 15vh;
+    left:750px ;
+    z-index: 9999;
 }
-
 #img{
     width: 100%;
 }

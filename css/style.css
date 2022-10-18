@@ -1,0 +1,80 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+#player {
+  width: 150px;
+  height: 150px;
+  position: absolute;
+  bottom: 550px;
+  background-image: url("../img/adventure_girl/png/Idle (1).png");
+  background-size: cover;
+  background-repeat: no-repeat; }
+
+.turn {
+  transform: rotateY(180deg); }
+
+#tree {
+  background-image: url("../img/tileset/png/Objects/Tree.png");
+  position: absolute;
+  background-size: contain;
+  background-repeat: no-repeat;
+  z-index: 100;
+  width: 40vw;
+  height: 40vh;
+  bottom: 150px;
+  left: 1100px; }
+
+#deadbush {
+  background-image: url("../img/tileset/png/Objects/DeadBush.png");
+  position: absolute;
+  background-size: contain;
+  background-repeat: no-repeat;
+  bottom: 150px;
+  width: 20vw;
+  height: 15vh;
+  left: 1050px; }
+
+#bush {
+  background-image: url("../img/tileset/png/Objects/Bush (1).png");
+  position: absolute;
+  background-size: contain;
+  background-repeat: no-repeat;
+  bottom: 150px;
+  width: 20vw;
+  height: 15vh;
+  left: -10px; }
+
+#tombstone {
+  background-image: url("../img/tileset/png/Objects/TombStone (2).png");
+  position: absolute;
+  background-size: contain;
+  background-repeat: no-repeat;
+  bottom: 150px;
+  width: 20vw;
+  height: 15vh;
+  left: 750px;
+  z-index: 9999; }
+
+#img {
+  width: 100%; }
+
+body {
+  height: 100vh;
+  overflow: hidden;
+  background-image: url("../img/tileset/BG.png");
+  background-size: cover;
+  background-repeat: no-repeat; }
+
+#ground {
+  background-color: yellow;
+  position: absolute;
+  width: 100vw;
+  bottom: 0;
+  height: 150px;
+  background-image: url("../img/tileset/Tile (2).png");
+  background-size: contain;
+  background-repeat: repeat-x; }
+
+/*# sourceMappingURL=style.css.map */
