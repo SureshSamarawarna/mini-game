@@ -41,7 +41,7 @@ const animate = ()=>{
     dy += acceleration;
     if((player.offsetTop +player.offsetHeight)>(ground.offsetTop)){
         dy=0;
-        player.style.top = `${ground.offsetTop-player.offsetHeight +10}px`
+        player.style.top = `${ground.offsetTop-player.offsetHeight }px`
         acceleration =0;
     }
     player.style.left = `${player.offsetLeft + dx}px`;
